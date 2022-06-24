@@ -350,3 +350,10 @@ td, th {
   text-align: center;
   padding: 8px;
 }
+
+.section-two h3 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
