@@ -351,6 +351,7 @@ td, th {
   padding: 8px;
 }
 
+/*Aligning h3 text to center using the flexbox */
 .section-two h3 {
   display: flex;
   position: relative;
