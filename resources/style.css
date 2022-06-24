@@ -21,6 +21,7 @@ header{
   transition: 0.6s;
 }
 
+/*
 header .logo{
   color: #fff;
   font-size: 1.8em;
@@ -29,15 +30,18 @@ header .logo{
   text-decoration: none;
   letter-spacing: 2px;
 }
+*/
 
-header .logo_img{
+header .logo{
   display: flex;
   align-items: left;
   width: fit-content;
   padding: auto;
   margin-top: 0%;
   margin-bottom: 0%;
-  height: 40px;
+  width: auto;
+  height: 40;
+  max-width: 250px;
   max-height: 70px;
 }
 
@@ -316,7 +320,11 @@ section{
   margin: 30px 0;
 }
 
-.section-two .image {
+.section-two a{
+  text-decoration: none;
+}
+
+.section-two .image{
   background-image: url('./mung_pic.jpg');
   background-size: contain;
   background-position: left;
@@ -325,7 +333,7 @@ section{
   background-repeat: no-repeat;
 }
 
-.section-two .image .caption {
+.section-two .image .caption{
   display: block;
   font-family: 'Playfair Display', serif;
   font-size: 14px;
@@ -357,4 +365,7 @@ td, th {
   position: relative;
   align-items: center;
   justify-content: center;
+  padding: 10px;
+  margin: auto;
+  text-decoration: underline;
 }
