@@ -328,24 +328,42 @@ section{
   background-image: url('./mung_pic.jpg');
   background-size: contain;
   background-position: left;
+  margin: 1em 0;
   height: 400px;
+  max-height: 700px;
   mask-repeat: no-repeat;
   background-repeat: no-repeat;
+  overflow: auto;
 }
 
 .section-two .image .caption{
   display: block;
   font-family: 'Playfair Display', serif;
-  font-size: 14px;
+  font-size: 80%;
   font-style: italic;
   line-height: 14px;
-  margin-left: 20px;
+  margin: auto;
   padding: 10px;
   position: relative;
-  top: 80%;
-  width: 60%;
   background-color: none;
-  color: white;
+  color: navy;
+}
+
+@media (max-width: 1060px) {
+  .section-two .image .caption{
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 10px;
+    font-style: italic;
+    line-height: 14px;
+    margin-left: 10px;
+    padding: 10px;
+    position: relative;
+    top: 80%;
+    width: 60%;
+    background-color: none;
+    color: white;
+  }
 }
 
 .section-two table{
