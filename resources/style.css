@@ -53,7 +53,7 @@ header .navigation{
 }
 
 header.sticky {
-  background-color: springgreen;
+  background-color: rgb(127, 127, 227);
 }
 
 header.sticky .navigation{
