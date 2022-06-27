@@ -1,0 +1,31 @@
+h1 {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
+  font-size: 100px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: normal;
+}
+
+body {
+  background-image: url('https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+}
