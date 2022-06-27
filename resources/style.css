@@ -388,3 +388,14 @@ td, th {
   margin: auto;
   text-decoration: underline;
 }
+
+/*Footer */
+.footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  background-color: #808080;
+  color: #fff;
+}
