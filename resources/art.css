@@ -1,3 +1,19 @@
+
+/*Build the header */
+header{
+  position: scroll;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: none;
+
+  /*Add a drop shadow to differentiate the header from the main section */
+  box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+  padding: 0 100px;
+}
+
 h1 {
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
   font-size: 100px;
