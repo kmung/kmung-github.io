@@ -1,6 +1,7 @@
 
 /*Build the header */
 header{
+  z-index: 999;
   position: scroll;
   top: 0;
   left: 0;
