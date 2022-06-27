@@ -360,9 +360,15 @@ section{
   width: 100%;
 }
 
-td, th {
+th {
   border: 2px solid #dddddd;
   text-align: center;
+  padding: 8px;
+}
+
+td {
+  border: 2px solid #dddddd;
+  text-align: left;
   padding: 8px;
 }
 
