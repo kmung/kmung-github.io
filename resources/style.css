@@ -298,14 +298,13 @@ section{
 }
 
 .section-two h2{
-  color: blue;
+  color: beige;
   font-size: 3em;
   font-weight: 700;
   margin: 30px 0;
 }
 
 .section-two p{
-  color: blue;
   font-size: 1em;
   margin: 30px 0;
 }
