@@ -316,6 +316,7 @@ section{
 .section-two .image{
   display: block;
   position: relative;
+  padding: 2rem;
   height: auto;
   max-height: 100%;
   max-width: 100%;
@@ -335,9 +336,10 @@ section{
   position: absolute;
   top: 8px;
   left: 16px;
-  background-color: none;
+  background-color: orange;
   display: inline;
   color: navy;
+  border-radius: 70%;
 }
 
 /* 
@@ -366,8 +368,6 @@ section{
   }
 }
 */
-
-
 
 .section-two table{
   border-collapse: collapse;
