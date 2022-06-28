@@ -314,17 +314,17 @@ section{
 }
 
 .section-two .image{
-  background-image: url('./mung_pic.jpg');
-  background-size: contain;
-  background-position: left;
+  display: flex;
+  position: relative;
   margin: 1em 0;
-  height: 400px;
+  height: auto;
   max-height: 700px;
-  mask-repeat: no-repeat;
-  background-repeat: no-repeat;
+  max-width: 100%;
   overflow: auto;
+  text-align: center;
 }
 
+/*caption top left on image*/
 .section-two .image .caption{
   display: block;
   font-family: 'Playfair Display', serif;
@@ -333,8 +333,11 @@ section{
   line-height: 14px;
   margin: auto;
   padding: 10px;
-  position: relative;
+  position: absolute;
+  top: 8px;
+  left: 16px;
   background-color: none;
+  display: inline;
   color: navy;
 }
 
