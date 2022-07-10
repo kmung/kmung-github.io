@@ -67,15 +67,6 @@ ul {
   font-weight: normal;
 }
 
-ol {
-  color: aliceblue;
-  line-height: 1.3em;
-  text-align: left;
-  width: 100%;
-  font-size: 14px;
-  font-weight: normal;
-}
-
 .byline {
   color: rgba(255, 255, 255, 0.5);
   float: left;
