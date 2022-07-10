@@ -79,8 +79,14 @@ body {
   z-index: 1;
 }
 
-hero__content {
+.hero__content {
   z-index: 1;
+  align-items: center;
+  justify-content: right;
+}
+
+.hero__content-width {
+  max-width: 540px;
 }
 
 /*
