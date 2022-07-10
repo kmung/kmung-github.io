@@ -1,13 +1,8 @@
 /*Google font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/*Style the header */
-.header{
-  z-index: 2;
-
-  /*Add a drop shadow to differentiate the header from the main section */
-  box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
-  padding: 0 100px;
+:root {
+  --bs-body-font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -19,54 +14,35 @@ body {
   background: linear-gradient(45deg, #20b826b5, #2da8cd);
 }
 
-h1 {
-  color: #FFF;
-  font-size: 2em;
-  padding-top: 80px;
-  width: 100%;
-  text-align: center;
+/*Style the header */
+.header{
+  z-index: 2;
+  position: absolute;
+  justify-content: space-between;
+
+  /*Add a drop shadow to differentiate the header from the main section */
+  box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+  padding: 0 100px;
 }
 
-h2 {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: 100;
-  font-size: 22px;
-  line-height: 24px;
-  padding-bottom: 30px;
-  text-align: left;
-  width: 70%;
+.header .logo{
+  display: flex;
+  align-items: left;
+  width: fit-content;
+  padding: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  width: auto;
+  height: 50px;
+  max-width: 250px;
+  max-height: 70px;
 }
 
-h3 {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: 100;
-  font-size: 20px;
-  line-height: 24px;
-  padding-bottom: 30px;
-  text-align: left;
-  width: 70%;
+.header .menu {
+  text-decoration: none;
 }
 
-p {
-  color: aliceblue;
-  line-height: 1.3em;
-  text-align: left;
-  width: 100%;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-ul {
-  color: aliceblue;
-  line-height: 1.3em;
-  text-align: left;
-  width: 100%;
-  font-size: 14px;
-  font-weight: normal;
-}
-
+/*
 .byline {
   color: rgba(255, 255, 255, 0.5);
   float: left;
@@ -93,3 +69,6 @@ ul {
   align-items: center;
   justify-content: center;
  }
+*/
+
+
