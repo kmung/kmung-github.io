@@ -33,8 +33,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*Setting a global font type */
-  font-family: "Times New Roman", Georgia, Times, serif;
 }
 
 h1 {
@@ -42,7 +40,6 @@ h1 {
   font-size: 2em;
   padding-top: 80px;
   width: 100%;
-  font-family: Georgia;
   text-align: center;
 }
 
@@ -55,7 +52,6 @@ h2 {
   padding-bottom: 30px;
   text-align: left;
   width: 70%;
-  font-family: Georgia;
 }
 
 h3 {
@@ -67,7 +63,6 @@ h3 {
   padding-bottom: 30px;
   text-align: left;
   width: 70%;
-  font-family: Georgia;
 }
 
 p {
@@ -84,7 +79,6 @@ ul {
   line-height: 1.3em;
   text-align: left;
   width: 100%;
-  font-family: Helvetica;
   font-size: 14px;
   font-weight: normal;
 }
@@ -94,13 +88,11 @@ ol {
   line-height: 1.3em;
   text-align: left;
   width: 100%;
-  font-family: Helvetica;
   font-size: 14px;
   font-weight: normal;
 }
 
 .byline {
-  font-family: Helvetica;
   color: rgba(255, 255, 255, 0.5);
   float: left;
   font-size: 14px;
