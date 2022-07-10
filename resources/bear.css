@@ -19,17 +19,17 @@ body {
 /*Style the header */
 .header{
   z-index: 2;
-  position: absolute;
-  justify-content: space-between;
+}
 
-  /*Add a drop shadow to differentiate the header from the main section */
-  box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
-  padding: 0 100px;
+.header .navigation {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
 }
 
 .header .logo{
-  display: flex;
-  align-items: left;
   width: fit-content;
   padding: auto;
   margin-top: 0%;
@@ -38,10 +38,6 @@ body {
   height: 50px;
   max-width: 250px;
   max-height: 70px;
-}
-
-.header .menu {
-  text-decoration: none;
 }
 
 /*
