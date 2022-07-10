@@ -1,26 +1,13 @@
 /*Google font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/*Build the header */
-header{
-  position: scroll;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  background: none;
+/*Style the header */
+.header{
+  z-index: 2;
 
   /*Add a drop shadow to differentiate the header from the main section */
   box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
   padding: 0 100px;
-}
-
-header .navigation{
-  position: relative;
-  line-height: 75px;
-  transition: 0.6s;
-  transition-property: line-height;
 }
 
 body {
