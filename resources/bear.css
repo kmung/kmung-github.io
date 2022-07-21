@@ -80,6 +80,10 @@ html {scroll-behavior: smooth;}
   max-width: 540px;
 }
 
+.section-content {
+  background-color: aquamarine;
+}
+
 /*
 .byline {
   color: rgba(255, 255, 255, 0.5);
@@ -101,12 +105,3 @@ html {scroll-behavior: smooth;}
   top: 80%;
   width: 60%;
 }
-
-.media .img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
- }
-*/
-
-
