@@ -7,4 +7,6 @@ My site is a platform for me to practice web development and to showcase project
 
 You can visit my site by clicking here: https://kmung.github.io
 
+My site is hosted for free on [GitHub Pages](https://pages.github.com/).
+
 This is a work in progress.
