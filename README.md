@@ -9,6 +9,6 @@ You can visit my site by clicking here: https://kmung.github.io
 
 My site is hosted for free on [GitHub Pages](https://pages.github.com/).
 
-Incorporating Bootstrap classes to make my site more responsive. I started building this site using HTML, CSS, and vanilla JavaScript (along with JQuery library), so going back and incorporating Bootstrap CSS and JavaScript is similar to updating the support beams of an already built house.
+Incorporating Bootstrap classes to make my site more responsive. I built this site initially using plain HTML, CSS, and vanilla JavaScript (along with the JQuery library), so going back and incorporating Bootstrap CSS and JavaScript is similar to updating the support beams of an already built house.
 
 This is a work in progress.
