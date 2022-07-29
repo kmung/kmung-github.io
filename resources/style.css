@@ -342,33 +342,6 @@ section{
   border-radius: 70%;
 }
 
-/* 
-@media (max-width: 1060px) {
-  .section-two .image{
-    display: block;
-    margin: auto;
-    height: auto;
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-  }
-  .section-two .image .caption{
-    display: block;
-    font-family: 'Playfair Display', serif;
-    font-size: 10px;
-    font-style: italic;
-    line-height: 14px;
-    margin-left: auto;
-    padding: auto;
-    position: absolute;
-    top: 80%;
-    width: 60%;
-    background-color: none;
-    color: white;
-  }
-}
-*/
-
 .section-two table{
   border-collapse: collapse;
   width: 100%;
