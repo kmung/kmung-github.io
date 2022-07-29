@@ -7,35 +7,6 @@
 
 html {scroll-behavior: smooth;}
 
-/*Style the header */
-.header{
-  z-index: 2;
-  position: absolute;
-  background: none;
-  top: 0;
-  left: 0;
-  padding: 1 100%;
-}
-
-.header .navigation {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-decoration: none;
-  list-style: none;
-}
-
-.header .logo{
-  width: fit-content;
-  padding: auto;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  width: auto;
-  height: 50px;
-  max-width: 250px;
-  max-height: 70px;
-}
-
 /*Section - Welcome */
 .section-main {
   position: relative;
@@ -80,9 +51,6 @@ html {scroll-behavior: smooth;}
   max-width: 540px;
 }
 
-.section-content {
-  background-color: aquamarine;
-}
 
 /*
 .byline {
