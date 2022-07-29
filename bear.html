@@ -21,17 +21,35 @@ I use BootStrap 5 to make this page mobile-first responsive-->
     <!--Header-->
     <header class="header">
       <!--Navigation-->
-      <div class="navigation">
-        <!--My logo-->
-        <a href="https://kmung.github.io"><img class="logo" src="./resources/logo-removebg-preview.png"/></a> 
-        <!--Nav menu-->
-        <ul class="menu">
-          <li><a href="https://kmung.github.io">About Me</a></li>
-          <li><a href="#introduction">Introduction</a></li>
-          <li><a href="#habitat">Habitat</a></li>
-          <li><a href="#media">Media</a></li>
-        </ul>
-      </div>
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+          <!--My Logo-->
+          <a class="navbar-brand" href="#">
+            <img src="./resources/logo-removebg-preview.png" alt="Mung's Logo" width="30" height="24">
+          </a>
+          <!--Nav mobile toggle button-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <!--Nav menu-->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="location" href="https://kmung.github.io">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="location" href="#introduction">Introduction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="location" href="#habitat">Habitat</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="location" href="#media">Media</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!--Welcome section-->
