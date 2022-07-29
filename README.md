@@ -9,4 +9,6 @@ You can visit my site by clicking here: https://kmung.github.io
 
 My site is hosted for free on [GitHub Pages](https://pages.github.com/).
 
+Incorporating Bootstrap classes to make my site more responsive.
+
 This is a work in progress.
