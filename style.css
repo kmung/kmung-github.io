@@ -73,25 +73,6 @@ header .navigation .menu{
   transition: 0.3s;
 }
 
-.menu-item .sub-menu{
-  position: absolute;
-  background: #23252B;
-  top: 74px;
-  line-height: 40px;
-  list-style: none;
-  border-radius: 0 0 8px 8px;
-  box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
-  pointer-events: none;
-  transform: translateY(20px);
-  opacity: 0;
-  transition: 0.3s;
-  transition-property: transform, opacity;
-}
-
-header.sticky .menu-item .sub-menu{
-  top: 60px;
-}
-
 .menu-item:hover .sub-menu{
   pointer-events: all;
   transform: translateY(0);
