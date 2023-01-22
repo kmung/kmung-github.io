@@ -3,60 +3,36 @@
 body {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
-*{
+*, *::before, *::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-family: "Poppins", sans-serif;
 }
 
-header{
-  z-index: 999;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+a {
+  text-decoration: none;
+}
+
+header {
+  position: relative;;
+  z-index: 2;
+  position: sticky;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: none;
+  width: 100%;
   padding: 0 100px;
-  transition: 0.6s;
 }
 
 header .logo{
   display: flex;
-  align-items: left;
-  width: fit-content;
-  padding: auto;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  width: auto;
-  height: 50px;
-  max-width: 250px;
+  max-width: 80px;
   max-height: 70px;
 }
 
-header .navigation{
-  position: relative;
-  line-height: 75px;
-  transition: 0.6s;
-  transition-property: line-height;
-}
-
-header.sticky {
-  background-color: moccasin;
-  opacity: 0.9;
-}
-
-header.sticky .navigation{
-  line-height: 60px;
-}
-
 @media (max-width: 1060px){
-  header.sticky .navigation{
-    line-height: 75px;
-  }
-
   header{
     padding: 15px 20px;
   }
@@ -71,14 +47,12 @@ section{
 }
 
 .section-home{
-  position: relative;
   min-height: 100vh;
-  background: url(./wallpaper.jpg)no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: #808080;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -70px;
 }
 
 .section-home h2{
@@ -163,7 +137,6 @@ td {
   justify-content: center;
   padding: 10px;
   margin: auto;
-  text-decoration: underline;
 }
 
 /*Footer */
