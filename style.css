@@ -59,8 +59,6 @@ section{
   color: white;
   font-size: 40px;
   font-weight: normal;
-  text-shadow: 0 5px 25px rgb(0 0 0 / 20%);
-  opacity: 100%;
 }
 
 .section-two{
@@ -78,10 +76,6 @@ section{
 .section-two p{
   font-size: 1em;
   margin: 30px 0;
-}
-
-.section-two a{
-  text-decoration: none;
 }
 
 .section-two .image{
