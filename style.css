@@ -118,17 +118,6 @@ section{
   width: 100%;
 }
 
-th {
-  border: 2px solid #dddddd;
-  text-align: center;
-  padding: 8px;
-}
-
-td {
-  border: 2px solid #dddddd;
-  padding: 8px;
-}
-
 /*Aligning h3 text to center using the flexbox */
 .section-two h3 {
   display: flex;
