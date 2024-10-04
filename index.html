@@ -8,59 +8,33 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Website Title-->
     <title>Khawm Mung - Home</title>
     <!--Favicon-->
     <link rel="icon" type="image/x-icon" href="./resources/favicon.ico" alt="Khawm Mung">
     <link rel="canonical" href="https://kmung.github.io">
     <meta name="description" content="Welcome to my personal website! My name is Khawm Mung.">
-    <!--Custom CSS-->
     <link href='style.css' rel='stylesheet'>
   </head>
   <body>
-    <!--Header-->
-    <header>
-      <!--My logo-->
-      <div>
-        <a href="https://kmung.github.io"><img class="logo" src="./resources/logo-removebg-preview.png"/></a>
+    <div class="main-video">
+      <video autoplay muted loop id="main-video">
+        <source src="./resources/3dspace.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+    <div class="content">
+      <div class="logo-box">
+        <a href="https://kmung.github.io" target="_self">
+          <img src="./resources/logo-removebg-preview.png" alt="Khawm Mung">
+        </a>
       </div>
-    </header>
-    <!--Welcome banner-->
-    <section class="section-home">
       <div id="bio">
         <h2>Hello world! My name is <strong>Khawm Mung</strong></h2>
       </div>
-    </section>
-    <!--Main contents-->
-    <section class="section-two">
-      <div class = 'about-me' id="about-me">
-        <div class='image'>
-          <a href="https://kmung.github.io" target="_self">
-            <img src="./resources/mung_pic.jpg" alt="Picture of Khawm Mung">
-          </a>
-          <span class='caption'><em>Lé me in 2018</em></span>
-        </div>
-        <p>My name is Khawm Mung and I love learning about technology! I got introduced to programming in highschool. 
-          Back then I didn't really know what it is or even how the internet work. 
-          Now I built this site using HTML, CSS, and JavaScript to practice web development. 
-          I just deployed this site recently, so bare with me for the lack of contents or broken components.</p>
-        <p>My plan is to continue updating this site and have it showcase projects I've worked on.</p>
-        <p>The swirly background pattern you see is from codecademy.</p>
-      </div>
-      <div class="resources" id="resources">
-        <h3>Resources</h3>
-        <p>If you're interested in web development, I would like to offer help. Helpful resources coming soon below:</p>
-        <ul>
-          <li>freeCodeCamp</li>
-          <li>The Odin Project</li>
-          <li>W3Schools</li>
-          <li>LeetCode</li>
-        </ul>
-      </div>
-    </section>
-    <!--Footer-->
+    </div>
     <footer class="footer">
-      <span class="copyright">&copy;2022-2023 <a href="https://kmung.github.io" target="_self">Khawm Mung</a></span>
+      <span id="copyright">&copy;2022-2024&nbsp;<a href="https://kmung.github.io" target="_self">Khawm Mung</a></span>
+      <span>|</span>
       <span>Proudly hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a></span>
     </footer>
     <!--Custom JavaScript-->

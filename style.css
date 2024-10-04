@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body {
+body, html {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
+  height: 100%;
+  overflow: hidden;
 }
 
 *, *::before, *::after{
@@ -17,125 +18,49 @@ a {
   text-decoration: none;
 }
 
-header {
-  position: relative;;
-  z-index: 2;
-  position: sticky;
-  display: flex;
+.main-video {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  padding: 0 100px;
-}
-
-header .logo{
-  display: flex;
-  max-width: 80px;
-  max-height: 70px;
-}
-
-@media (max-width: 1060px){
-  header{
-    padding: 15px 20px;
-  }
-
-  header.sticky{
-    padding: 10px 20px;
-  }
-}
-
-section{
-  padding: 20px 100px;
-}
-
-.section-home{
-  min-height: 100vh;
-  background-color: #808080;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -70px;
-}
-
-.section-home h2{
-  color: white;
-  font-size: 40px;
-  font-weight: normal;
-}
-
-.section-two{
-  min-height: 100vh;
-  background-image: url('https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
-}
-
-.section-two h2{
-  color: beige;
-  font-size: 3em;
-  font-weight: 700;
-  margin: 30px 0;
-}
-
-.section-two p{
-  font-size: 1em;
-  margin: 30px 0;
-}
-
-.section-two .image{
-  display: block;
-  position: relative;
-  padding: 2rem;
-  height: auto;
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
+  height: 100%;
+  z-index: -1;
   overflow: hidden;
 }
 
-/*caption top left on image*/
-.section-two .image .caption{
-  display: block;
-  font-family: 'Playfair Display', serif;
-  font-size: 80%;
-  font-style: italic;
-  line-height: 14px;
-  margin: auto;
-  padding: 10px;
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  background-color: orange;
-  display: inline;
-  color: navy;
-  border-radius: 70%;
-}
-
-.section-two table{
-  border-collapse: collapse;
+#main-video {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-/*Aligning h3 text to center using the flexbox */
-.section-two h3 {
+.content {
   display: flex;
-  position: relative;
-  align-items: center;
   justify-content: center;
-  padding: 10px;
-  margin: auto;
+  align-items: center;
+  justify-items: center;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
 
-/*Footer */
+.logo-box {
+  
+}
+
+.logo-box img {
+  width: 10rem;
+}
+
+#bio {
+  position: relative;
+}
+
 .footer {
   position: relative;
-  display: flex;
-  gap: 4px;
-  align-items: center;
-  justify-content: center;
-  min-height: 40px;
-  background-color: #808080;
+  z-index: 1;
   color: #fff;
-}
-
-.footer .copyright {
-  border-right: 2px solid black;
-  margin: 0em 0.6em 0em 0em;;
-  padding: 0em 0.6em 0em 0em;
+  text-align: center;
+  padding: 10px;
 }
