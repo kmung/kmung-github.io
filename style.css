@@ -4,7 +4,8 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 *, *::before, *::after{
@@ -36,6 +37,7 @@ a {
 
 .content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   justify-items: center;
@@ -43,6 +45,11 @@ a {
   color: #fff;
   text-align: center;
   padding: 20px;
+  flex: 1;
+}
+
+.logo-box {
+  margin: 20px;
 }
 
 .logo-box img {
@@ -54,9 +61,9 @@ a {
 }
 
 .footer {
-  position: relative;
   z-index: 1;
   color: #fff;
   text-align: center;
   padding: 10px;
+  flex-shrink: 0;
 }
